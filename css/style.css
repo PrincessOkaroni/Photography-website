@@ -56,3 +56,9 @@ main {
 section {
   margin-bottom: 2rem;
 }
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
