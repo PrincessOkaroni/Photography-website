@@ -30,3 +30,21 @@ nav ul {
   justify-content: center;
   gap: 1rem;
 }
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+  cursor: pointer;
+  color: orange;
+}
