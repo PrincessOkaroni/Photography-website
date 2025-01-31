@@ -9,18 +9,18 @@ body {
 header {
   background-color: #333;
   color: white;
-  padding: 1rem 0;
+  padding: 20px;
   text-align: center;
 }
 
 header h1 {
-  margin: 0;
-  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-size: 3rem;
 }
 
 header p {
   margin: 0.5rem 0;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 nav ul {
@@ -66,20 +66,48 @@ h2 {
 .photo-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 1rem;
+  gap: 20px;
 }
 
 .photo-grid img {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 10px;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#about h2 {
   width: 100%;
-  height: auto;
-  border-radius: 8px;
+  text-align: center;
+}
+
+#about-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
 }
 
 #about img {
-  display: block;
-  margin: 1rem auto;
-  max-width: 100%;
-  border-radius: 8px;
+  max-width: 50%;
+  border-radius: 10px;
+  order: 2;
+}
+
+#about p {
+  font-size: 1.25rem;
+  color: black;
+  flex: 1;
+  order: 1;
+  text-align: left;
 }
 
 form {
@@ -125,7 +153,7 @@ footer {
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 1rem 0;
+  padding: 20px;
 }
 
 footer p {
