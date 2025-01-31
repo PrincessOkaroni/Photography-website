@@ -48,3 +48,11 @@ nav ul li a:hover {
   cursor: pointer;
   color: orange;
 }
+
+main {
+  padding: 2rem;
+}
+
+section {
+  margin-bottom: 2rem;
+}
